@@ -1,0 +1,29 @@
+R	Y	W	Rose			Tulip	Pansy	Cosmos	Lily	Hyacinth	Windflower	Mum
+			B 0	B 1	B 2
+0	0	0	White	White	White	White	White	White	White	White	White	White
+0	0	1	White	White	White	White	White	White	White	White	White	White
+0	0	2	Purple	Purple	Purple	White	Blue	White	White	Blue	Blue	Purple
+0	1	0	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Orange	Yellow
+0	1	1	White	White	White	Yellow	Yellow	Yellow	White	Yellow	Orange	Yellow
+0	1	2	Purple	Purple	Purple	White	Blue	White	White	White	Blue	White
+0	2	0	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Orange	Yellow
+0	2	1	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Yellow	Orange	Yellow
+0	2	2	White	White	White	Yellow	Yellow	Yellow	White	Yellow	Orange	Yellow
+1	0	0	Red	Pink	White	Red	Red	Pink	Red	Red	Red	Pink
+1	0	1	Red	Pink	White	Pink	Red	Pink	Pink	Pink	Red	Pink
+1	0	2	Red	Pink	Purple	White	Blue	Pink	White	White	Blue	Pink
+1	1	0	Orange	Yellow	Yellow	Orange	Orange	Orange	Orange	Orange	Pink	Yellow
+1	1	1	Red	Pink	White	Yellow	Orange	Orange	Yellow	Yellow	Pink	Red
+1	1	2	Red	Pink	Purple	Yellow	Orange	Pink	Yellow	Yellow	Pink	Pink
+1	2	0	Orange	Yellow	Yellow	Orange	Yellow	Orange	Orange	Orange	Orange	Purple
+1	2	1	Orange	Yellow	Yellow	Yellow	Yellow	Orange	Yellow	Yellow	Orange	Purple
+1	2	2	Red	Pink	White	Yellow	Yellow	Orange	Yellow	Yellow	Orange	Purple
+2	0	0	Black	Red	Pink	Black	Red	Red	Black	Red	Red	Red
+2	0	1	Black	Red	Pink	Red	Red	Red	Red	Red	Red	Red
+2	0	2	Black	Red	Pink	Red	Purple	Red	Pink	Red	Purple	Red
+2	1	0	Orange	Orange	Yellow	Black	Red	Orange	Black	Blue	Red	Purple
+2	1	1	Red	Red	White	Red	Red	Orange	Red	Red	Red	Purple
+2	1	2	Black	Red	Purple	Red	Purple	Red	Pink	Red	Purple	Red
+2	2	0	Orange	Orange	Yellow	Purple	Orange	Black	Orange	Purple	Pink	Green
+2	2	1	Orange	Orange	Yellow	Purple	Orange	Black	Orange	Purple	Pink	Green
+2	2	2	Blue	Red	White	Purple	Purple	Red	White	Purple	Purple	Red
