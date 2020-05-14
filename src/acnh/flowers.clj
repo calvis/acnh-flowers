@@ -1,6 +1,5 @@
 (ns acnh.flowers
-  (:require [clojure.data.priority-map :refer [priority-map]]
-            [clojure.math.combinatorics :as combo]
+  (:require [clojure.math.combinatorics :as combo]
             [clojure.java.io :as io]
             [datomic.api :as d]))
 
