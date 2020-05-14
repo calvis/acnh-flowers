@@ -1,0 +1,30 @@
+[;; red
+ [:breed/rose 2 0 0 1]
+ [:breed/tulip 2 0 1 nil]
+ [:breed/pansy 2 0 0 nil]
+ [:breed/cosmos 2 0 0 nil]
+ [:breed/lily 2 0 1 nil]
+ [:breed/hyacinth 2 0 1 nil]
+ [:breed/windflower 2 0 0 nil]
+ [:breed/mums 2 0 0 nil]
+
+ ;; yellow
+ [:breed/rose 0 2 0 0]
+ [:breed/tulip 0 2 0 nil]
+ [:breed/pansy 0 2 0 nil]
+ [:breed/cosmos 0 2 1 nil]
+ [:breed/lily 0 2 0 nil]
+ [:breed/hyacinth 0 2 0 nil]
+ [:breed/windflower 0 2 0 nil]
+ [:breed/mums 0 2 0 nil]
+
+ ;; white
+ [:breed/rose 0 0 1 0]
+ [:breed/tulip 0 0 1 nil]
+ [:breed/pansy 0 0 1 nil]
+ [:breed/cosmos 0 0 1 nil]
+ [:breed/hyacinth 0 0 1 nil]
+ [:breed/windflower 0 0 1 nil]
+ [:breed/mums 0 0 1 nil]
+ [:breed/lily 0 0 2 nil]
+ ]
