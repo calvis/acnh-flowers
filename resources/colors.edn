@@ -1,0 +1,108 @@
+{[0 0 0] {:breed/tulip :color/white, :breed/pansy :color/white, :breed/cosmos :color/white, :breed/lily :color/white, :breed/hyacinth :color/white, :breed/windflower :color/white, :breed/mums :color/white}
+ [0 0 1] {:breed/tulip :color/white, :breed/pansy :color/white, :breed/cosmos :color/white, :breed/lily :color/white, :breed/hyacinth :color/white, :breed/windflower :color/white, :breed/mums :color/white}
+ [0 0 2] {:breed/tulip :color/white, :breed/pansy :color/blue, :breed/cosmos :color/white, :breed/lily :color/white, :breed/hyacinth :color/blue, :breed/windflower :color/blue, :breed/mums :color/purple}
+ [0 1 0] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/yellow, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/yellow}
+ [0 1 1] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/yellow, :breed/lily :color/white, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/yellow}
+ [0 1 2] {:breed/tulip :color/white, :breed/pansy :color/blue, :breed/cosmos :color/white, :breed/lily :color/white, :breed/hyacinth :color/white, :breed/windflower :color/blue, :breed/mums :color/white}
+ [0 2 0] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/yellow, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/yellow}
+ [0 2 1] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/yellow, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/yellow}
+ [0 2 2] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/yellow, :breed/lily :color/white, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/yellow}
+ [1 0 0] {:breed/tulip :color/red, :breed/pansy :color/red, :breed/cosmos :color/pink, :breed/lily :color/red, :breed/hyacinth :color/red, :breed/windflower :color/red, :breed/mums :color/pink}
+ [1 0 1] {:breed/tulip :color/pink, :breed/pansy :color/red, :breed/cosmos :color/pink, :breed/lily :color/pink, :breed/hyacinth :color/pink, :breed/windflower :color/red, :breed/mums :color/pink}
+ [1 0 2] {:breed/tulip :color/white, :breed/pansy :color/blue, :breed/cosmos :color/pink, :breed/lily :color/white, :breed/hyacinth :color/white, :breed/windflower :color/blue, :breed/mums :color/pink}
+ [1 1 0] {:breed/tulip :color/orange, :breed/pansy :color/orange, :breed/cosmos :color/orange, :breed/lily :color/orange, :breed/hyacinth :color/orange, :breed/windflower :color/pink, :breed/mums :color/yellow}
+ [1 1 1] {:breed/tulip :color/yellow, :breed/pansy :color/orange, :breed/cosmos :color/orange, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/pink, :breed/mums :color/red}
+ [1 1 2] {:breed/tulip :color/yellow, :breed/pansy :color/orange, :breed/cosmos :color/pink, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/pink, :breed/mums :color/pink}
+ [1 2 0] {:breed/tulip :color/orange, :breed/pansy :color/yellow, :breed/cosmos :color/orange, :breed/lily :color/orange, :breed/hyacinth :color/orange, :breed/windflower :color/orange, :breed/mums :color/purple}
+ [1 2 1] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/orange, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/purple}
+ [1 2 2] {:breed/tulip :color/yellow, :breed/pansy :color/yellow, :breed/cosmos :color/orange, :breed/lily :color/yellow, :breed/hyacinth :color/yellow, :breed/windflower :color/orange, :breed/mums :color/purple}
+ [2 0 0] {:breed/tulip :color/black, :breed/pansy :color/red, :breed/cosmos :color/red, :breed/lily :color/black, :breed/hyacinth :color/red, :breed/windflower :color/red, :breed/mums :color/red}
+ [2 0 1] {:breed/tulip :color/red, :breed/pansy :color/red, :breed/cosmos :color/red, :breed/lily :color/red, :breed/hyacinth :color/red, :breed/windflower :color/red, :breed/mums :color/red}
+ [2 0 2] {:breed/tulip :color/red, :breed/pansy :color/purple, :breed/cosmos :color/red, :breed/lily :color/pink, :breed/hyacinth :color/red, :breed/windflower :color/purple, :breed/mums :color/red}
+ [2 1 0] {:breed/tulip :color/black, :breed/pansy :color/red, :breed/cosmos :color/orange, :breed/lily :color/black, :breed/hyacinth :color/blue, :breed/windflower :color/red, :breed/mums :color/purple}
+ [2 1 1] {:breed/tulip :color/red, :breed/pansy :color/red, :breed/cosmos :color/orange, :breed/lily :color/red, :breed/hyacinth :color/red, :breed/windflower :color/red, :breed/mums :color/purple}
+ [2 1 2] {:breed/tulip :color/red, :breed/pansy :color/purple, :breed/cosmos :color/red, :breed/lily :color/pink, :breed/hyacinth :color/red, :breed/windflower :color/purple, :breed/mums :color/red}
+ [2 2 0] {:breed/tulip :color/purple, :breed/pansy :color/orange, :breed/cosmos :color/black, :breed/lily :color/orange, :breed/hyacinth :color/purple, :breed/windflower :color/pink, :breed/mums :color/green}
+ [2 2 1] {:breed/tulip :color/purple, :breed/pansy :color/orange, :breed/cosmos :color/black, :breed/lily :color/orange, :breed/hyacinth :color/purple, :breed/windflower :color/pink, :breed/mums :color/green}
+ [2 2 2] {:breed/tulip :color/purple, :breed/pansy :color/purple, :breed/cosmos :color/red, :breed/lily :color/white, :breed/hyacinth :color/purple, :breed/windflower :color/purple, :breed/mums :color/red}
+ [0 0 0 0] {:breed/rose :color/white}
+ [0 0 0 1] {:breed/rose :color/white}
+ [0 0 0 2] {:breed/rose :color/white}
+ [0 0 1 0] {:breed/rose :color/white}
+ [0 0 1 1] {:breed/rose :color/white}
+ [0 0 1 2] {:breed/rose :color/white}
+ [0 0 2 0] {:breed/rose :color/purple}
+ [0 0 2 1] {:breed/rose :color/purple}
+ [0 0 2 2] {:breed/rose :color/purple}
+ [0 1 0 0] {:breed/rose :color/yellow}
+ [0 1 0 1] {:breed/rose :color/yellow}
+ [0 1 0 2] {:breed/rose :color/yellow}
+ [0 1 1 0] {:breed/rose :color/white}
+ [0 1 1 1] {:breed/rose :color/white}
+ [0 1 1 2] {:breed/rose :color/white}
+ [0 1 2 0] {:breed/rose :color/purple}
+ [0 1 2 1] {:breed/rose :color/purple}
+ [0 1 2 2] {:breed/rose :color/purple}
+ [0 2 0 0] {:breed/rose :color/yellow}
+ [0 2 0 1] {:breed/rose :color/yellow}
+ [0 2 0 2] {:breed/rose :color/yellow}
+ [0 2 1 0] {:breed/rose :color/yellow}
+ [0 2 1 1] {:breed/rose :color/yellow}
+ [0 2 1 2] {:breed/rose :color/yellow}
+ [0 2 2 0] {:breed/rose :color/white}
+ [0 2 2 1] {:breed/rose :color/white}
+ [0 2 2 2] {:breed/rose :color/white}
+ [1 0 0 0] {:breed/rose :color/red}
+ [1 0 0 1] {:breed/rose :color/pink}
+ [1 0 0 2] {:breed/rose :color/white}
+ [1 0 1 0] {:breed/rose :color/red}
+ [1 0 1 1] {:breed/rose :color/pink}
+ [1 0 1 2] {:breed/rose :color/white}
+ [1 0 2 0] {:breed/rose :color/red}
+ [1 0 2 1] {:breed/rose :color/pink}
+ [1 0 2 2] {:breed/rose :color/purple}
+ [1 1 0 0] {:breed/rose :color/orange}
+ [1 1 0 1] {:breed/rose :color/yellow}
+ [1 1 0 2] {:breed/rose :color/yellow}
+ [1 1 1 0] {:breed/rose :color/red}
+ [1 1 1 1] {:breed/rose :color/pink}
+ [1 1 1 2] {:breed/rose :color/white}
+ [1 1 2 0] {:breed/rose :color/red}
+ [1 1 2 1] {:breed/rose :color/pink}
+ [1 1 2 2] {:breed/rose :color/purple}
+ [1 2 0 0] {:breed/rose :color/orange}
+ [1 2 0 1] {:breed/rose :color/yellow}
+ [1 2 0 2] {:breed/rose :color/yellow}
+ [1 2 1 0] {:breed/rose :color/orange}
+ [1 2 1 1] {:breed/rose :color/yellow}
+ [1 2 1 2] {:breed/rose :color/yellow}
+ [1 2 2 0] {:breed/rose :color/red}
+ [1 2 2 1] {:breed/rose :color/pink}
+ [1 2 2 2] {:breed/rose :color/white}
+ [2 0 0 0] {:breed/rose :color/black}
+ [2 0 0 1] {:breed/rose :color/red}
+ [2 0 0 2] {:breed/rose :color/pink}
+ [2 0 1 0] {:breed/rose :color/black}
+ [2 0 1 1] {:breed/rose :color/red}
+ [2 0 1 2] {:breed/rose :color/pink}
+ [2 0 2 0] {:breed/rose :color/black}
+ [2 0 2 1] {:breed/rose :color/red}
+ [2 0 2 2] {:breed/rose :color/pink}
+ [2 1 0 0] {:breed/rose :color/orange}
+ [2 1 0 1] {:breed/rose :color/orange}
+ [2 1 0 2] {:breed/rose :color/yellow}
+ [2 1 1 0] {:breed/rose :color/red}
+ [2 1 1 1] {:breed/rose :color/red}
+ [2 1 1 2] {:breed/rose :color/white}
+ [2 1 2 0] {:breed/rose :color/black}
+ [2 1 2 1] {:breed/rose :color/red}
+ [2 1 2 2] {:breed/rose :color/purple}
+ [2 2 0 0] {:breed/rose :color/orange}
+ [2 2 0 1] {:breed/rose :color/orange}
+ [2 2 0 2] {:breed/rose :color/yellow}
+ [2 2 1 0] {:breed/rose :color/orange}
+ [2 2 1 1] {:breed/rose :color/orange}
+ [2 2 1 2] {:breed/rose :color/yellow}
+ [2 2 2 0] {:breed/rose :color/blue}
+ [2 2 2 1] {:breed/rose :color/red}
+ [2 2 2 2] {:breed/rose :color/white}}
