@@ -83,11 +83,11 @@
   (testing "cosmos"
     (let [conn (fresh-conn :breed/cosmos)]
       (is (= [{:flower/id [:breed/cosmos 2 2 0 nil]
-	             :flower/color :color/black
-	             :flower/score 2}
-	            {:flower/id [:breed/cosmos 2 2 1 nil]
-	             :flower/color :color/black
-	             :flower/score 3}]
+               :flower/color :color/black
+               :flower/score 2}
+              {:flower/id [:breed/cosmos 2 2 1 nil]
+               :flower/color :color/black
+               :flower/score 3}]
              (d/q '[:find [(pull ?flower [:flower/id :flower/color :flower/score]) ...]
                     :in $ ?color
                     :where
@@ -115,7 +115,7 @@
                     (pretty-path))))
         (let [tree (build-tree db (with-color db :color/black))]
           (is (= [[:color/orange [1 1 0 nil] :color/orange [1 1 0 nil] 0.0625 :color/black [2 2 0 nil]]
-	                [:color/red :seed :color/yellow :seed 0.5 :color/orange [1 1 0 nil]]]
+                  [:color/red :seed :color/yellow :seed 0.5 :color/orange [1 1 0 nil]]]
                  (map pretty-path (d/pull-many db path-pattern tree))))))))
   (testing "tulips"
     ;; red yellow => orange
@@ -127,7 +127,7 @@
       (testing "purple"
         (let [tree (build-tree db (with-color db :color/purple))]
           (is (= [[:color/orange [1 1 0 nil] :color/orange [1 1 0 nil] 0.0625 :color/purple [2 2 0 nil]]
-	                [:color/yellow :seed :color/red :seed 0.5 :color/orange [1 1 0 nil]]]
+                  [:color/yellow :seed :color/red :seed 0.5 :color/orange [1 1 0 nil]]]
                  (map pretty-path (d/pull-many db path-pattern tree))))))))
   (testing "mums"
     ;; red white => pink
@@ -143,7 +143,7 @@
                (map pretty-path (d/pull-many db path-pattern (build-tree db (with-color db :color/purple)))))))
       (testing "green"
         (is (= [[:color/yellow [1 1 0 nil] :color/yellow [1 1 0 nil] 0.0625 :color/green [2 2 0 nil]]
-	              [:color/yellow :seed :color/red :seed 1.0 :color/yellow [1 1 0 nil]]]
+                [:color/yellow :seed :color/red :seed 1.0 :color/yellow [1 1 0 nil]]]
                (map pretty-path (d/pull-many db path-pattern (build-tree db (with-color db :color/green)))))
             "it only finds the 6% strategy"))))
   (testing "roses"
@@ -159,8 +159,8 @@
           db (d/db conn)]
       (testing "blue"
         (is (= [[:color/red [1 1 2 0] :color/red [1 1 2 0] 0.0625 :color/blue [2 2 2 0]]
-	              [:color/white [0 1 1 0] :color/red [1 0 1 0] 0.0625 :color/red [1 1 2 0]]
-	              [:color/white :seed :color/yellow :seed 0.5 :color/white [0 1 1 0]]
-	              [:color/white :seed :color/red :seed 0.25 :color/red [1 0 1 0]]]
+                [:color/white [0 1 1 0] :color/red [1 0 1 0] 0.0625 :color/red [1 1 2 0]]
+                [:color/white :seed :color/yellow :seed 0.5 :color/white [0 1 1 0]]
+                [:color/white :seed :color/red :seed 0.25 :color/red [1 0 1 0]]]
                (map pretty-path (d/pull-many db path-pattern (build-tree db (with-color db :color/blue)))))
             "totally new strategy, short, but really bad %s")))))
