@@ -2,6 +2,9 @@
 
 Toy project that generates valid breeding strategies for hybrids.
 
+See the [build-tree tests](https://github.com/calvis/acnh-flowers/blob/master/test/acnh/flowers_test.clj#L97)
+for sample usage.
+
 ### Setup
 
 This assumes you have a Datomic account, at least Starter edition, and
