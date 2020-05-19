@@ -228,19 +228,26 @@
   "decides one set of best parents to choose, depending on the flower
   score"
   [db flower]
-  (first (d/q '[:find ?path ?parentA ?parentB
-                :in $ ?flower
-                :where
-                [?flower :flower/score ?score]
-                [(dec ?score) ?parent-score]
-                [?path :path/child ?flower]
-                [?path :path/parentA ?parentA]
-                [?path :path/parentB ?parentB]
-                [?parentA :flower/score ?scoreA]
-                [(< ?scoreA ?score)]
-                [?parentB :flower/score ?scoreB]
-                [(< ?scoreB ?score)]]
-              db flower)))
+  (let [parents (d/q '[:find
+                       ?path
+                       (pull ?parentA [:db/id :flower/id])
+                       (pull ?parentB [:db/id :flower/id])
+                       :in $ ?flower
+                       :where
+                       [?flower :flower/score ?score]
+                       [(dec ?score) ?parent-score]
+                       [?path :path/child ?flower]
+                       [?path :path/parentA ?parentA]
+                       [?path :path/parentB ?parentB]
+                       [?parentA :flower/score ?scoreA]
+                       [(< ?scoreA ?score)]
+                       [?parentB :flower/score ?scoreB]
+                       [(< ?scoreB ?score)]]
+                     db flower)
+        [path parentA parentB] (first (sort-by (fn [[path parentA parentB]]
+                                                 [(:flower/id parentA) (:flower/id parentB)])
+                                               parents))]
+    [path (:db/id parentA) (:db/id parentB)]))
 
 (defn build-tree
   "given a set of desired outcomes, finds ONE tree (in practice, a list
