@@ -95,20 +95,7 @@
      :db/tupleAttrs [:path/parentA :path/parentB :path/chance :path/child]
      :db/cardinality :db.cardinality/one
      :db/unique :db.unique/identity}
-    {:db/ident :path/score
-     :db/valueType :db.type/long
-     :db/cardinality :db.cardinality/many}]
-
-   [{:db/ident :chain/paths
-     :db/valueType :db.type/ref
-     :db/cardinality :db.cardinality/many}
-    {:db/ident :chain/chance
-     :db/valueType :db.type/double
-     :db/cardinality :db.cardinality/one}
-    {:db/ident :chain/outcome
-     :db/valueType :db.type/ref
-     :db/cardinality :db.cardinality/one}]
-
+    ]
    ])
 
 (def path-pattern
