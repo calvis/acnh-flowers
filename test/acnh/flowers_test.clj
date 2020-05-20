@@ -146,6 +146,21 @@
                 [:color/yellow :seed :color/red :seed 1.0 :color/yellow [1 1 0 nil]]]
                (map pretty-path (d/pull-many db path-pattern (build-tree db (with-color db :color/green)))))
             "it only finds the 6% strategy"))))
+  (testing "pansies"
+    ;; red yellow => orange
+    ;; white white => blue
+    ;; red blue => red*
+    ;; red* red* => purple
+    (let [conn (fresh-conn :breed/pansy)
+          db (d/db conn)]
+      (testing "orange"
+        (is (= [[:color/yellow :seed :color/red :seed 1.0 :color/orange [1 1 0 nil]]]
+               (map pretty-path (d/pull-many db path-pattern (build-tree db (with-color db :color/orange)))))))
+      (testing "purple"
+        (is (= [[:color/red [1 0 1 nil] :color/red [1 0 1 nil] 0.0625 :color/purple [2 0 2 nil]]
+	              [:color/white :seed :color/red :seed 0.5 :color/red [1 0 1 nil]]]
+               (map pretty-path (d/pull-many db path-pattern (build-tree db (with-color db :color/purple)))))
+            "ambiguous; half the reds would be the wrong genotype"))))
   (testing "roses"
     ;; red yellow => orange
     ;; red red => black
