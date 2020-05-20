@@ -5,7 +5,7 @@
 
 (defn punnett-square
   "returns a list of all children implied by a punnett square of the two parents
-  https://aiterusawato.github.io/guides/acnh/flowers.html#bookbreeding-algorithm"
+  https://aiterusawato.github.io/satogu/acnh/flowers/advanced.html#breeding-algorithm"
   [parentA parentB]
   (let [genesA (apply combo/cartesian-product parentA)
         genesB (apply combo/cartesian-product parentB)]
